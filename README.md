@@ -270,7 +270,11 @@ You can go foward in time with Bob, or back in time with Bob. From that you coul
 * All code is naturally throughly testable and tested
 * Each object
   * Adheres to SOLiD principles
-  * Would not violate Sandi's rulez
+  * Would not violate Sandi's rules
+   * Classes can be no longer than one hundred lines of code.
+   * Methods can be no longer than five lines of code.
+   * Pass no more than four parameters into a method. Hash options are parameters.
+   * Controllers can instantiate only one object. Therefore, views can only know about one instance variable and views should only send messages to that object.
   * Is easy to reason about and describe
   * Naturally is protected from breaking the public interface
 
